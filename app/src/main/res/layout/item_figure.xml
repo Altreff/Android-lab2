@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Николай II"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Император Российский"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/bornTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 мая 1868 г."
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/diedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17 июля 1918 г."
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/parentsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Александр III, Мария Федоровна"
+        android:textSize="14sp"/>
+
+</LinearLayout>
